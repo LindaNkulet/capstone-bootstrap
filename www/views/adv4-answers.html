@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Adventure 1 homepage</title>
+  <title>Adventure4 answers</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
 
 </head>
 <body>
@@ -71,37 +71,76 @@
 
   <!--Main content-->
   <div class="container">
+  <!--<div class="alert alert-success fade in">
+  Congratulations,you just completed the first adventure!
+  <a href="#" class="close" data-dismiss ="alert" aria-label="close">&times;</a>
+</div>-->
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Adventure 1:<small><em>Transcription page</em></small></h3>
-      </div>
-      <div class="panel-body">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Adventure 4:<small><em>Validate answers page</em></small></h3>
+  </div>
+  <div class="panel-body">
 
-        <div class="row">
-          <div class="col-sm-2">
-            <a href="adventure1.html">
-             <img src="../images/go_back.png" class="img-responsive" style="width:60px; height:auto;" >
-           </a>
-         </div>
-         <div class="col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-6" >
-          <audio controls style="margin-top:14px;"> 
-            <source src="../images/adv1Transcription-audio.m4a" type="audio/mpeg" /> 
-          </audio>
-        </div>    
-      </div>
-      <div class="row ">
-        <div class="col-sm-6 col-sm-offset-3 text-center" style="font-size: 20px; line-height: 2">
-          Mesdames, Mesdemoiselles, Messieurs, bonjour
-          Le bus 65 de la compagnie STC va bientôt partir. 
-          Merci de bien vouloir monter à bord à l’appel de la référence de votre billet :
-          Le ticket <strong>AEKRF57</strong> s’il vous plaît,
-          Le ticket <strong>EJYPF35</strong> s’il vous plaît, 
-          Merci!
-        </div>
-      </div>
+    <div class="row" >
+
+     <div class="col-sm-2 col-sm-offset-3">
+       <a href="adv4-lesson.html">
+         <img src="../images/lesson-btn.png" class="img-responsive" " style="width:80px;" >
+       </a>
+     </div>
+
+     <div class="col-sm-2 col-sm-offset-4">
+      <a href="adventure5.html">
+       <img src="../images/next.png" class="img-responsive" style="width:90px; height:auto; margin-top: 10px;" >
+     </a>
+   </div>
+
+ </div>
+
+ <div class="row" style="margin-top: 20px;">
+  <div class="col-sm-3 col-sm-offset-2 col-md-offset-3" >
+   <img src="../images/dice1.png" class="img-responsive" style="width:80px;" > 
+ </div>
+
+ <div class="col-sm-3 " >
+   <img src="../images/dice2.png" class="img-responsive" style="width:100px;" > 
+ </div>
+
+ <div class="col-sm-3 " >
+   <img src="../images/dice3.png" class="img-responsive" style="width:100px;" > 
+ </div>
+ 
+</div>
+
+<div class="row">
+  <div class="col-sm-4  col-md-3 col-md-offset-2">
+    <div class="input-group " >
+      <span class="input-group-addon" id="basic-addon1">Il y a </span>
+      <input type="text" class="form-control" placeholder="Quatre" aria-describedby="basic-addon1" readonly disabled>
+      <span class="input-group-addon" id="basic-addon1">points</span>
     </div>
   </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Il y a </span>
+      <input type="text" class="form-control" placeholder="Cinq" aria-describedby="basic-addon1" disabled>
+      <span class="input-group-addon" id="basic-addon1">points</span>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Il y a </span>
+      <input type="text" class="form-control " placeholder="huit" aria-describedby="basic-addon1" disabled>
+      <span class="input-group-addon" id="basic-addon1">points</span>
+    </div>
+  </div>
+</div>
+
+
+</div>
 </div>
 </div>
 
@@ -111,5 +150,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
 </body>
 </html>

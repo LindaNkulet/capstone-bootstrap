@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Adventure 1 homepage</title>
+  <title>Adventure9 homepage</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
 
 </head>
 <body>
@@ -74,34 +74,66 @@
 
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Adventure 1:<small><em>Transcription page</em></small></h3>
+        <h3 class="panel-title">Adventure 9</h3>
       </div>
       <div class="panel-body">
 
         <div class="row">
-          <div class="col-sm-2">
-            <a href="adventure1.html">
-             <img src="../images/go_back.png" class="img-responsive" style="width:60px; height:auto;" >
-           </a>
-         </div>
-         <div class="col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-6" >
-          <audio controls style="margin-top:14px;"> 
-            <source src="../images/adv1Transcription-audio.m4a" type="audio/mpeg" /> 
-          </audio>
-        </div>    
-      </div>
-      <div class="row ">
-        <div class="col-sm-6 col-sm-offset-3 text-center" style="font-size: 20px; line-height: 2">
-          Mesdames, Mesdemoiselles, Messieurs, bonjour
-          Le bus 65 de la compagnie STC va bientôt partir. 
-          Merci de bien vouloir monter à bord à l’appel de la référence de votre billet :
-          Le ticket <strong>AEKRF57</strong> s’il vous plaît,
-          Le ticket <strong>EJYPF35</strong> s’il vous plaît, 
-          Merci!
-        </div>
-      </div>
+          <div class="col-sm-3 col-md-2 col-md-offset-2" >
+      <!--<a href="#"  onclick="playSound('../images/nombres_audio.m4a');">
+      <img src="../images/audio.png" class="img-responsive" id="audio-btn">-->
+      <!--</a>-->
+      <audio controls style="margin-top:10px;"> 
+        <source src="../images/adv9page-audio.m4a" type="audio/mpeg" /> 
+      </audio>
     </div>
+    <div class="col-sm-2 col-sm-offset-2 col-md-2 ">
+    <a href="adv9-transcription.html">
+       <img src="../images/transcription-btn.png" class="img-responsive" " style="width:80px;">
+     </a>
+   </div>
+   <div class="col-sm-2">
+    <a href="adv9-lesson.html">
+     <img src="../images/lesson-btn.png" class="img-responsive" " style="width:80px;" >
+   </a>
+ </div>
+ <div class="col-sm-2">
+  <a href="adv9-answers.html">
+   <img src="../images/validate.png" class="img-responsive " style="width:80px;" >
+ </a>
+</div>
+</div>
+
+<div class="row " style="margin-top: 20px;">
+  <div class="col-sm-2 col-md-offset-1" >
+    <img src="../images/amapic.PNG" class="img-responsive" style="width:120px;">
   </div>
+  <div class="col-sm-1 col-md-1 callouts">
+   <p class="callouts--left"> Il y a un message vocal sur mon téléphone. Il me donne le numéro de téléphone que l’on doit appeler une fois arrivé à Abidjan.
+    Aide moi à noter le numéro sur un papier s’il te plait.
+  </p>
+</div>
+<div class="col-sm-1 col-sm-offset-3  col-md-1 col-md-offset-2 callouts">
+  <p class="callouts--right">There is a vocal message on my phone. It’s giving me the telephone number we have to call when we arrive in Abidjan. Please help me to write it down on a piece of paper.
+  </p>
+</div>
+<div class="col-sm-2  col-sm-offset-3 col-md-2">
+ <img src="../images/kofipic.PNG" class="img-responsive" style="width:100px;" > 
+</div>
+</div>
+
+<div class="row">  
+  <div class="col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-5">
+    <!--style=" background-color:blue !important;"-->
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Type answer here...</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" ></textarea>
+    </div>
+
+  </div>
+</div> 
+
+</div>
 </div>
 </div>
 
@@ -111,5 +143,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
 </body>
 </html>

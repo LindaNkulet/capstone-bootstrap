@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Adventure3 homepage</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
+
+</head>
+<body>
+  <!--navbar-->
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+      <!--logo-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Voyage App</a>
+      </div>
+
+      <!--menu items-->
+      <div class="collapse navbar-collapse" id ="mainNavBar">
+        <ul class="nav navbar-nav" >
+          <li class="active"><a href="#">Home</a></li>
+          <!--dropdown menu-->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1" >
+              Adventures 
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li ><a href="#">adventure 1</a></li>
+              <li ><a href="#">adventure 2</a></li>
+              <li ><a href="#">adventure 3</a></li>
+              <li ><a href="#">adventure 4</a></li>
+              <li ><a href="#">adventure 5</a></li>
+              <li ><a href="#">adventure 6</a></li>
+              <li ><a href="#">adventure 7</a></li>
+              <li ><a href="#">adventure 8</a></li>
+              <li ><a href="#">adventure 9</a></li>
+              <li ><a href="#">adventure 10</a></li>
+            </ul>
+          </li>
+
+          <li ><a href="#">Help</a></li>
+          
+        </ul>
+
+        <!--right align-->
+        <ul class="nav navbar-nav navbar-right">
+          <li ><a href="#">Logout</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!--Main content-->
+  <div class="container">
+  <!--<div class="alert alert-success fade in">
+  Congratulations,you just completed the first adventure!
+  <a href="#" class="close" data-dismiss ="alert" aria-label="close">&times;</a>
+</div>-->
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Adventure 3</h3>
+  </div>
+  <div class="panel-body">
+
+    <div class="row">
+      <div class="col-sm-3 col-md-2 col-md-offset-2" >
+        <audio controls style="margin-top:10px;"> 
+          <source src="../images/adv3page-audio.m4a" type="audio/mpeg" /> 
+        </audio>
+      </div>
+      <div class="col-sm-2 col-sm-offset-2 col-md-2 ">
+        <a href="adv3-transcription.html">
+         <img src="../images/transcription-btn.png" class="img-responsive" " style="width:80px;">
+       </a>
+     </div>
+
+     <div class="col-sm-2">
+     <a href="adv3-lesson.html">
+       <img src="../images/lesson-btn.png" class="img-responsive" " style="width:80px;" >
+     </a>
+   </div>
+
+   <div class="col-sm-2">
+    <a href="adv3-answers.html">
+     <img src="../images/validate.png" class="img-responsive " style="width:80px;" >
+   </a>
+ </div>
+
+</div>
+
+<div class="row " style="margin-top: 20px;">
+  <div class="col-sm-2 col-md-offset-1" >
+    <img src="../images/amapic.PNG" class="img-responsive" style="width:120px;">
+  </div>
+  <div class="col-sm-1 col-md-1 callouts">
+   <p class="callouts--left"> Ecoute l’annonce de l’hôtesse qui nous donne des informations sur notre voyage.
+   </p>
+ </div>
+ <div class="col-sm-1 col-sm-offset-3  col-md-1 col-md-offset-2 callouts">
+  <p class="callouts--right"> Listen to the hostess, she is giving us pieces of information about our trip.
+  </p>
+</div>
+<div class="col-sm-2  col-sm-offset-3 col-md-2">
+ <img src="../images/kofipic.PNG" class="img-responsive" style="width:100px;" > 
+</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 col-sm-offset-3" >
+    <p>Le trajet jusqu’à Abidjan durera :</p>
+    <div class="row">
+      <div class="col-sm-8" >
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio-hours" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"> - 06 heures</span>
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 " >
+        <label class="custom-control custom-radio">
+          <input id="radio2" name="radio-hours" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"> - 08 heures</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 " >
+        <label class="custom-control custom-radio">
+          <input id="radio3" name="radio-hours" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">- 10 heures</span>
+        </label>
+      </div>
+    </div>  
+  </div>
+
+  <div class="col-sm-4 " >
+   <p>Vous voyagez entre Accra et Abidjan sur : </p>
+   <div class="row">
+    <div class="col-sm-8 " >
+      <label class="custom-control custom-radio">
+        <input id="radio4" name="radio-bus" type="radio" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"> - le bus 55</span>
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 " >
+      <label class="custom-control custom-radio">
+        <input id="radio5" name="radio-bus" type="radio" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"> - le bus 75</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-8 " >
+      <label class="custom-control custom-radio">
+        <input id="radio6" name="radio-bus" type="radio" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">- le bus 65</span>
+      </label>
+    </div>
+  </div>  
+</div>   
+</div>
+
+<div class="row" style="margin-top: 20px;">
+  <div class="col-sm-8 col-sm-offset-3">
+    <p>Le bus arrivera à la frontière entre le  Ghana et la Côte d’Ivoire  à : </p>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio-matin" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">- 06 heures du matin</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio-matin" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">- 08 heures du matin</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio-matin" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">- 10 heures du matin  </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

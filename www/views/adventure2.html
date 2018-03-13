@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Adventure 1 homepage</title>
+  <title>Adventure2 homepage</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
 
 </head>
 <body>
@@ -71,37 +71,96 @@
 
   <!--Main content-->
   <div class="container">
+  <!--<div class="alert alert-success fade in">
+  Congratulations,you just completed the first adventure!
+  <a href="#" class="close" data-dismiss ="alert" aria-label="close">&times;</a>
+</div>-->
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Adventure 1:<small><em>Lesson page</em></small></h3>
+    <h3 class="panel-title">Adventure 2</h3>
   </div>
   <div class="panel-body">
 
     <div class="row">
-    <div class="col-sm-2">
-        <a href="adventure1.html">
-         <img src="../images/go_back.png" class="img-responsive" style="width:60px; height:auto;" >
-       </a>
-    </div>
-      <div class="col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-6" >
-        <audio controls style="margin-top:14px;"> 
-          <source src="../images/alphabet_audio.m4a" type="audio/mpeg" /> 
+      <div class="col-sm-3 col-md-2 col-md-offset-2" >
+      <!--<a href="#"  onclick="playSound('../images/nombres_audio.m4a');">
+        <img src="../images/audio.png" class="img-responsive" id="audio-btn">-->
+        <!--</a>-->
+        <audio controls style="margin-top:10px;"> 
+          <source src="../images/adv2page-audio.m4a" type="audio/mpeg" /> 
       </audio>
       </div>
-      
+      <div class="col-sm-2 col-sm-offset-2 col-md-2 ">
+        <a href="adv2-lesson.html">
+       <img src="../images/lesson-btn.png" class="img-responsive" " style="width:80px;" >
+     </a>
+
+     </div>
+     <div class="col-sm-2">
+      <a href="adventure3.html">
+         <img src="../images/next.png" class="img-responsive" style="width:80px; height:auto;" >
+       </a>
+   </div>
+   
 </div>
 
-<div class="row " style="margin-top: 20px;">
-<div class="col-sm-6">
-<img src="../images/alphabet.png" class="img-responsive" >
+ <div class="row " style="margin-top: 20px;">
+      <div class="col-sm-2 col-md-offset-1" >
+        <img src="../images/amapic.PNG" class="img-responsive" style="width:120px;">
+     </div>
+     <div class="col-sm-1 col-md-1 callouts">
+       <p class="callouts--left"> Kwabena, please can you spell those towns.Spell, listen, correct yourself if necessary and repeat.
+
+        </p>
+   </div>
+   <div class="col-sm-1 col-sm-offset-3  col-md-1 col-md-offset-2 callouts">
+    <p class="callouts--right"> Kwabena, peux-tu épeler le nom de ces villes? Epèle, écoute, corrige 
+    toi si besoin et et répète
+    </p>
+ </div>
+ <div class="col-sm-2  col-sm-offset-3 col-md-2">
+   <img src="../images/kofipic.PNG" class="img-responsive" style="width:100px;" > 
+ </div>
 </div>
 
 <div class="row">
-<div class="col-sm-6">
- <img src="../images/vowels.png" class="img-responsive"  >
+      <div class="col-sm-3 col-sm-offset-3" >
+        <img src="../images/winneba.PNG" class="img-responsive" >
+     </div>
+    
+     <div class="col-sm-3 " >
+       <img src="../images/aboisso.PNG" class="img-responsive" >
+   </div>   
 </div>
-</div>
+
+<div class="row">
+      <div class="col-sm-3 col-sm-offset-3" >
+        <img src="../images/takoradi.PNG" class="img-responsive" >
+ </div>
+     <div class="col-sm-3 ">
+       <img src="../images/bonoua.PNG" class="img-responsive" >
+ </div>
+</div> 
+
+<div class="row">
+      <div class="col-sm-3 col-sm-offset-3" >
+        <img src="../images/cape_coast.PNG" class="img-responsive" >
+ </div>
+     <div class="col-sm-3 ">
+       <img src="../images/assinie.PNG" class="img-responsive" >
+ </div>
+</div> 
+
+<div class="row">
+      <div class="col-sm-3 col-sm-offset-3" >
+        <img src="../images/elmina.PNG" class="img-responsive" >
+ </div>
+     <div class="col-sm-3 ">
+       <img src="../images/abidjan.PNG" class="img-responsive" >
+ </div>
+</div> 
+
 </div>
 </div>
 </div>
@@ -112,5 +171,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
 </body>
 </html>
